@@ -1,8 +1,8 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import OverviewPage from './pages/OverviewPage';
 import ProductPage from './pages/ProductPage';
-import Sidebar from './components/Sidebar';
+import Sidebar from './components/common/Sidebar';
 
 const App = () => {
   return (
