@@ -3,6 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 import OverviewPage from './pages/OverviewPage';
 import ProductPage from './pages/ProductPage';
 import Sidebar from './components/common/Sidebar';
+import UsersPage from './pages/UsersPage';
+import SalesPage from './pages/SalesPage';
+import OrdersPage from './pages/OrdersPage';
 
 const App = () => {
   return (
@@ -16,6 +19,11 @@ const App = () => {
       <Routes>
         <Route path='/' element=<OverviewPage/> />
         <Route path='/products' element=<ProductPage/> />
+        <Route path='/users' element=<UsersPage /> />
+        <Route path='/sales' element=<SalesPage /> />
+        <Route path='/orders' element=<OrdersPage /> />
+
+
 
       </Routes>
     </div>
